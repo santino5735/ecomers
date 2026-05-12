@@ -1,0 +1,152 @@
+.page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.hero {
+  min-height: calc(100vh - 70px);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 4rem;
+  padding: 4rem 0;
+}
+
+.heroContent {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.badge {
+  display: inline-block;
+  background: rgba(245, 197, 24, 0.1);
+  border: 1px solid rgba(245, 197, 24, 0.3);
+  color: #f5c518;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 0.4rem 1rem;
+  border-radius: 999px;
+  width: fit-content;
+}
+
+.heroTitle {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 800;
+  line-height: 1.05;
+  color: #fff;
+}
+
+.heroAccent {
+  color: #f5c518;
+}
+
+.heroDesc {
+  color: #888;
+  font-size: 1rem;
+  line-height: 1.7;
+  max-width: 420px;
+}
+
+.cta {
+  display: inline-block;
+  background: #f5c518;
+  color: #000;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding: 0.85rem 2rem;
+  border-radius: 10px;
+  text-decoration: none;
+  width: fit-content;
+  transition: background 0.2s, transform 0.1s;
+}
+
+.cta:hover {
+  background: #ffd740;
+  transform: translateY(-2px);
+}
+
+.heroVisual {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle {
+  position: absolute;
+  width: 420px;
+  height: 420px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(245, 197, 24, 0.06) 0%, transparent 70%);
+  border: 1px solid rgba(245, 197, 24, 0.08);
+}
+
+.heroImg {
+  width: 380px;
+  height: 480px;
+  border-radius: 24px;
+  overflow: hidden;
+  border: 1px solid #1e1e1e;
+  position: relative;
+  z-index: 1;
+}
+
+.heroImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  background: #1a1a1a;
+  border: 1px solid #1a1a1a;
+  border-radius: 16px;
+  overflow: hidden;
+  margin-bottom: 5rem;
+}
+
+.feature {
+  background: #0a0a0a;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.featureIcon {
+  font-size: 1.4rem;
+  line-height: 1;
+}
+
+.featureTitle {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: #e0e0e0;
+}
+
+.featureDesc {
+  color: #666;
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    grid-template-columns: 1fr;
+    min-height: auto;
+    padding: 3rem 0;
+  }
+  .heroVisual { display: none; }
+  .features { grid-template-columns: 1fr; }
+}

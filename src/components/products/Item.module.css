@@ -1,0 +1,113 @@
+.card {
+  background: #0f0f0f;
+  border: 1px solid #1a1a1a;
+  border-radius: 14px;
+  overflow: hidden;
+  transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  border-color: #f5c518;
+  box-shadow: 0 12px 40px rgba(245, 197, 24, 0.08);
+}
+
+.imageWrapper {
+  position: relative;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.card:hover .image {
+  transform: scale(1.05);
+}
+
+.categoria {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(4px);
+  color: #f5c518;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 3px 8px;
+  border-radius: 4px;
+  border: 1px solid rgba(245, 197, 24, 0.3);
+}
+
+.body {
+  padding: 1rem 1.1rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  flex: 1;
+}
+
+.rating {
+  color: #f5c518;
+  font-size: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.ratingNum {
+  color: #666;
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+
+.nombre {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #e0e0e0;
+  line-height: 1.3;
+  flex: 1;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+}
+
+.precio {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.btn {
+  background: #f5c518;
+  color: #000;
+  border: none;
+  border-radius: 7px;
+  padding: 0.4rem 0.9rem;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  transition: background 0.2s, transform 0.1s;
+}
+
+.btn:hover {
+  background: #ffd740;
+  transform: scale(1.03);
+}
