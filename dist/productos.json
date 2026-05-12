@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "nombre": "remera blanca",
+    "precio": 5.99,
+    "categoria": "Remeras",
+    "imagen": "/imagenes/rem5.jpg",
+    "descripcion": "remeras de algodon.",
+    "stock": 15,
+    "rating": 4.5
+  },
+  {
+    "id": 2,
+    "nombre": "remera azul",
+    "precio": 54990,
+    "categoria": "Remeras",
+    "imagen": "/imagenes/rem2.jpg",
+    "descripcion": "remeras estampadas.",
+    "stock": 8,
+    "rating": 4.8
+  },
+  {
+    "id": 3,
+    "nombre": "Remera Oversize Classic",
+    "precio": 24990,
+    "categoria": "Remeras",
+    "imagen": "/imagenes/rem1.jpg",
+    "descripcion": "Remera oversize de algodón premium 100%.",
+    "stock": 30,
+    "rating": 4.2
+  },
+  {
+    "id": 4,
+    "nombre": "remeas de paises",
+    "precio": 129990,
+    "categoria": "Remeras",
+    "imagen": "/imagenes/rem3.jpg",
+    "descripcion": "remeras inspiradas en paises",
+    "stock": 5,
+    "rating": 4.9
+  },
+  {
+    "id": 5,
+    "nombre": "remeras gemelas",
+    "precio": 74990,
+    "categoria": "Remeras",
+    "imagen": "/imagenes/rem4.jpg",
+    "descripcion": "remeras de 2x1",
+    "stock": 12,
+    "rating": 4.6
+  },
+  {
+    "id": 6,
+    "nombre": "varias",
+    "precio": 199990,
+    "categoria": "Remeras",
+    "imagen": "/imagenes/rem6.jpg",
+    "descripcion": "remeras varias",
+    "stock": 3,
+    "rating": 4.7
+  },
+  {
+    "id": 7,
+    "nombre": "Remeras negras",
+    "precio": 44990,
+    "categoria": "Remeras",
+    "imagen": "/imagenes/rem7.jpg",
+    "descripcion": "remeras importadas de estados disueltos.",
+    "stock": 20,
+    "rating": 4.3
+  },
+  {
+    "id": 8,
+    "nombre": "remeras argentinas",
+    "precio": 19990,
+    "categoria": "Remeras",
+    "imagen": "/imagenes/rem8.jpg",
+    "descripcion": "remeras Argentinas.",
+    "stock": 25,
+    "rating": 4.1
+  }
+]
